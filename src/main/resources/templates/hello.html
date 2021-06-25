@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <base th:href="${#request.getContextPath() + '/'}"/>
+    <title>欢迎来到 大转盘~</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎<span th:text="${name}"></span> 来参加大转盘活动~</h1>
+
+</body>
+</html>
